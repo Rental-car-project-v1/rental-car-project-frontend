@@ -1,0 +1,41 @@
+.hero {
+    min-height: calc(100vh - var(--margin-top-header));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.btn_hero {
+    background-color: var(--primary);
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: none;
+}
+
+.search_form {
+    background-color: var(--primary);
+    border-radius: 7px;
+}
+
+.search_form button {
+    padding: 5px 40px;
+}
+
+.box {
+    padding: 20px 20px;
+    background: #fff;
+    height: 100%;
+    box-shadow: 1px 1px 3px var(--primary);
+}
+
+.icon_title {
+    font-size: 28px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000;
+}

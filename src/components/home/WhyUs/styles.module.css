@@ -1,0 +1,40 @@
+.box {
+    padding: 50px 20px;
+    background: #fff;
+    height: 100%;
+    border: 1px solid var(--primary);
+    position: relative;
+}
+
+.box_icon {
+    position: absolute;
+    color: var(--primary);
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 1px solid var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box_title {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.box p {
+    text-align: justify;
+}
+
+@media (min-width: 991px) {
+    .box_title {
+        min-height: 80px;
+        margin-bottom: 0;
+    }
+}

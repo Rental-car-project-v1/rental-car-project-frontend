@@ -1,0 +1,33 @@
+.box {
+    background: #ffffff;
+    height: 200px;
+    position: relative;
+}
+
+.box_bg {
+    width: 100%;
+    height: 100%;
+}
+
+.box_bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.box_body {
+    color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+.box_title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.box_content {
+    font-size: 16px;
+}
